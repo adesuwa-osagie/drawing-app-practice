@@ -3,8 +3,10 @@ window.addEventListener('load', () => {
     const ctx = canvas.getContext('2d'); //or 3d
 
     // Resizing
-    canvas.height = window.innerHeight;
-    canvas.width = window.innerWidth;
+
+
+    canvas.height = 500;
+    canvas.width = 500;
 
     //variables
     let painting = false;
@@ -73,5 +75,10 @@ window.addEventListener('load', () => {
 });
 
 //To keep it size
-// window.addEventListener('resize', displayWindowSize)
+//NOTE: This get rid of the drawing when window is resize!
+// function displayWindowSize() {
+//     canvas.height = 500;
+//     canvas.width = 500;
+// }
+// window.addEventListener("resize", displayWindowSize, false);
 //function for displayWindowSize(): https://www.tutorialrepublic.com/faq/how-to-capture-browser-window-resize-event-in-javascript.php

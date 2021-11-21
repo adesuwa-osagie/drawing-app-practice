@@ -5,6 +5,8 @@ What can I do with this drawing app:
 
 -draw lines
 -draw dots
+-how to make the lines smoother
+-how to resize canvas
 
 Tutorial used:
 
